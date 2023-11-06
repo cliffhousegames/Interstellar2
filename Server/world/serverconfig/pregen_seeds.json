@@ -1,0 +1,158 @@
+{
+	"level_seeds": [
+		{
+			"dim": "ad_astra:glacio_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:mars",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:earth_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "dimdungeons:dungeon_dimension",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:moon_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:moon",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:venus",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:venus_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "mmorpg:dungeon",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:mars_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:glacio",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "bloodmagic:dungeon",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "dimdungeons:build_dimension",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:mercury",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "deeperdarker:otherside",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:mercury_orbit",
+			"seed": -2593697944816429282
+		}
+	],
+	"structure_seeds": [
+		{
+			"dim": "ad_astra:glacio_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:mars",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:earth_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "dimdungeons:dungeon_dimension",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:moon_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:moon",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:venus",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:venus_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "mmorpg:dungeon",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:mars_orbit",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:glacio",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "bloodmagic:dungeon",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "dimdungeons:build_dimension",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:mercury",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "deeperdarker:otherside",
+			"seed": -2593697944816429282
+		},
+		{
+			"dim": "ad_astra:mercury_orbit",
+			"seed": -2593697944816429282
+		}
+	]
+}

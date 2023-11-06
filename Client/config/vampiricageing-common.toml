@@ -1,0 +1,90 @@
+#Whether dying resets Age
+deathReset = true
+#Intended to be a replacement for other forms of ageing, though will work with them. Overrides the mechanic to always begin at Level 1. Ranks can be gained by drinking blood of more powerful vampires. Highly recommended to turn off Death Reset and to make sure Advanced Vampire Age is turned on. More information on GitHub Readme or Curseforge Page
+sireingMechanic = false
+#Whether vampires should be immune to the effects of Powdered Snow. Applies to ALL vampires
+powderedSnowImmunity = true
+#Whether high Age Rank vampires can walk on water
+ageWaterWalking = true
+#Age rank a vampire must be to walk on water
+#Range: 0 ~ 5
+ageWaterWalkingRank = 4
+#What Age Rank a vampire must be to use the Celerity Action
+#Range: 0 ~ 5
+celerityActionRank = 1
+#Cooldown of the Celerity action in seconds
+#Range: 20 ~ 36000
+celerityActionCooldown = 60
+#Speed Multiplier provided by Celerity Action
+#Range: 1.0 ~ 5.0
+celerityActionMultiplier = 1.025
+#Duration of the Celerity action in seconds
+#Range: 1 ~ 36000
+celerityBloodActionDuration = 8
+#Whether the Celerity action is available for Aged Vampires
+celerityBloodAction = true
+#What Age Rank a vampire must be to use the Blood Tap Action
+#Range: 0 ~ 5
+drainBloodActionRank = 3
+#Cooldown of the Blood Tap action in seconds
+#Range: 1 ~ 36000
+drainBloodActionCooldown = 150
+#Duration of the Blood Tap action in seconds
+#Range: 1 ~ 36000
+drainBloodActionDuration = 10
+#Whether the Blood Tap action is available for Aged Vampires
+drainBloodAction = true
+#For any config with a list of 6 numbers, the very first number refers to a vampire with no age rank and the second number is the first age rank.
+#The level at which the age mechanic begins, Level 4 is the minimum age to have access to the Infect Action
+#Range: 0 ~ 14
+levelToBeginAgeMechanic = 14
+#The percentage, as a decimal, of how likely an advanced vampire is to get each rank with advanced vampire ages enabled
+percentageAdvancedVampireAges = [0.5, 0.3, 0.1, 0.08, 0.02]
+#Max Health Increase for each rank. This is addition, not multiplier based
+maxHealthIncrease = [0.0, 6.0, 8.0, 10.0, 12.0, 14.0]
+#Whether Age makes a difference on Trade Prices
+doesAgeAffectPrices = true
+#Makes running out of blood harsher on vampire, scaling with age
+harsherOutOfBlood = false
+#How much each rank affects Villager trade prices. 
+ageAffectTradePrices = [1.0, 1.1, 1.25, 1.5, 1.75, 2.0]
+#If enabled, vampire rage will nullify increased damage from generic vampire weakness reduction
+rageModeWeaknessToggle = true
+#How much each rank reduces/increases generic vampire weakness damage sources (such as Fire) in terms of how much the damage is divided by. Set all to 1 to have no change, use decimal values to increase damage
+genericVampireWeaknessReduction = [1.0, 1.0, 0.95, 0.9, 0.75, 0.5]
+#How much each rank reduces/increases Sun Damage in terms of how much the sun damage is divided by. Set all to 1 to have no change, use decimal values to increase sun damage
+sunDamageReduction = [1.0, 1.5, 2.0, 3.0, 4.0, 5.0]
+#Whether to use Number of Bites to increase Age. Enable only one option
+infectionBasedIncrease = true
+#Whether to use fully draining villagers of blood to increase Age. Enable only one option
+drainBasedIncrease = false
+#Whether to use Time Alive  to increase Age. Enable only one option
+timeBasedIncrease = false
+#How much time in ticks for a player to advance to the next Age Rank. Count is reset on Rank Up
+ticksForNextAge = [72000, 144000, 288000, 576000, 1152000]
+#How many entities infected for next Age Rank. Count is reset on Rank Up
+infectedForNextAge = [30, 45, 70, 100, 200]
+#How much each age rank increases damage by adding on to base damage. Set all to 0 to disable completely.
+ageDamageIncrease = [0.0, 1.0, 2.0, 3.0, 5.0, 6.0]
+#How many entities drained for next Age Rank. Count is reset on Rank Up
+drainedForNextAge = [10, 25, 40, 70, 100]
+#The Age Rank at which a vampire gains step assist. Set to 0 to disable. 
+#Range: 0 ~ 5
+stepAssistLevel = 2
+#Whether Age affects Blood Exhaustion
+ageAffectsBloodExhaustion = true
+#How much each rank affects Blood Exhaustion Rate (Blood Drain), lower numbers are a lower decrease in exhaustion, higher numbers decrease exhaustion, values above 1 will cause 0 blood drain. Set all to 0 to have no change in exhaustion rate. Negative Numbers can be used for inverse effect
+ageExhaustionEffect = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+#Whether Advanced Vampires should spawn with an Age Tier
+advancedVampireAge = true
+#When enabled, there is a chance to randomly get the Bad Omen effect as a High Age Vampire
+highAgeOmen = true
+#Whether Age Rank affects healing
+ageHealingAffect = true
+#How much each rank multiplies healing, this affects all types of healing 
+ageHealingMultiplier = [1.0, 1.0, 1.0, 1.5, 1.75, 2.0]
+#Whether Age Rank affects how much damage Hunter mobs do
+shouldAgeIncreaseHunterMobDamage = true
+#How much each rank multiplies damage from hunters, this only affects damage from hunter mobs, not players
+damageMultiplierFromHunters = [1.0, 1.0, 1.0, 1.5, 1.75, 2.0]
+
